@@ -42,7 +42,3 @@ def get_weather(location:str):
         print("请求超时，请检查网络")
     except Exception as e:
         print(f"请求异常：{str(e)}")
-
-
-if __name__ == "__main__":
-    get_weather("南阳")
